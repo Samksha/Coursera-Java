@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=ord
+comment0.target=EfficientMarkovWord(int)
+comment1.params=seed
+comment1.target=void\ setRandom(int)
+comment2.params=
+comment2.target=void\ buildMap()
+comment3.params=text
+comment3.target=void\ setTraining(java.lang.String)
+comment4.params=kGram
+comment4.target=java.util.ArrayList\ getFollows(WordGram)
+comment5.params=
+comment5.target=void\ printHashMapInfo()
+comment6.params=numWords
+comment6.target=java.lang.String\ getRandomText(int)
+comment6.text=private\ int\ indexOf(String[]\ words,\ WordGram\ target,\ int\ start)\n\ \ \ \ {\n\ \ \ \ \ \ \ \ for(int\ i\ \=\ start;\ i\ <\ words.length-myOrder;\ i++)\n\ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ WordGram\ w\ \=\ new\ WordGram(words,\ i,\ myOrder);\n\ \ \ \ \ \ \ \ \ \ \ \ if(w.equals(target))\ return\ i;\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ return\ -1;\n\ \ \ \ }\n\ \ \ \ \n\ \ \ \ /*public\ void\ testIndexOf()\n\ \ \ \ {\n\ \ \ \ \ \ \ \ String[]\ words\ \=\ {"this",\ "is",\ "just",\ "a",\ "test",\ "yes",\ "this",\ "is",\ "a",\ "simple",\ "test"};\n\ \ \ \ \ \ \ \ System.out.println(indexOf(words,\ "this",\ 0));\n\ \ \ \ \ \ \ \ System.out.println(indexOf(words,\ "this",\ 3));\n\ \ \ \ \ \ \ \ System.out.println(indexOf(words,\ "frog",\ 0));\n\ \ \ \ \ \ \ \ System.out.println(indexOf(words,\ "simple",\ 2));\ \ \ \ \ \ \ \ \n}
+numComments=7

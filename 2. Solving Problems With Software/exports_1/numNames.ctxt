@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ totalNames()
+comment1.params=fr1
+comment1.target=double\ find(edu.duke.FileResource)
+comment2.params=
+comment2.target=void\ highestRank()
+comment3.params=
+comment3.target=void\ ave()
+comment4.params=
+comment4.target=void\ rankmaster()
+numComments=5
