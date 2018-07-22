@@ -1,4 +1,4 @@
-#Java Programming: A DIY Version of Netflix and Amazon Recommendation Engines
+# Java Programming: A DIY Version of Netflix and Amazon Recommendation Engines
 
 The recommendation engine finds users in the database that have similar ratings and weights their input to provide a more personal recommendation system.
 
